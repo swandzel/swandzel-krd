@@ -24,7 +24,7 @@ const SearchBar = ({
             className="search-bar__input"
             onChange={(e) => setSearchQuery(e.target.value)}
             onKeyPress={searchOnEnter}
-            name="input"
+            name="search-bar"
           />
           <button className="search-bar__button" onClick={searchByQuery}>
             SZUKAJ
