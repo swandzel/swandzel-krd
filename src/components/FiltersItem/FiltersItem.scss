@@ -1,11 +1,13 @@
+@import "../../base";
+
 .filters-item {
   display: flex;
   align-items: center;
   width: 25%;
   border: 0;
   text-align: left;
-  background-color: #fff;
-  color: #bbbbbb;
+  background-color: $white;
+  color: $grey-darker;
   cursor: pointer;
   flex-wrap: wrap;
   padding: 20px 0;

@@ -14,7 +14,7 @@
   min-width: 360px;
 
   &__content {
-    background-color: #fff;
+    background-color: $white;
     @include container;
   }
 }

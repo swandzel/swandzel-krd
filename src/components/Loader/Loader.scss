@@ -1,3 +1,5 @@
+@import "../../base";
+
 .loader {
   display: flex;
   justify-content: center;
@@ -19,8 +21,8 @@
   height: 64px;
   margin: 8px;
   border-radius: 50%;
-  border: 6px solid #003054;
-  border-color: #003054 transparent #003054 transparent;
+  border: 6px solid $blue;
+  border-color: $blue transparent $blue transparent;
   animation: lds-dual-ring 1.2s linear infinite;
 }
 @keyframes lds-dual-ring {

@@ -1,7 +1,7 @@
 @import "../../base";
 
 .search-bar {
-  background-color: #003054;
+  background-color: $blue;
   height: 165px;
   width: 100%;
   display: flex;
@@ -13,7 +13,7 @@
   }
 
   &__info {
-    color: #fff;
+    color: $white;
     margin-bottom: 15px;
   }
 
@@ -32,8 +32,8 @@
   }
 
   &__button {
-    background-color: #e40321;
-    color: #fff;
+    background-color: $red;
+    color: $white;
     border: none;
     width: 150px;
     height: 50px;

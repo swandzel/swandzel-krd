@@ -1,15 +1,21 @@
+@import "../../base";
+
 .results-item {
   display: flex;
   align-items: flex-start;
-  color: #003054;
+  color: $blue;
   font-weight: 600;
   min-height: 60px;
-  border-bottom: 1px #d3d3d3 solid;
+  border-bottom: 1px $grey solid;
   padding: 20px 0 20px 20px;
 
   @media (max-width: 768px) {
     flex-wrap: wrap;
     padding: 20px 0;
+  }
+
+  @media (max-width: 450px) {
+    gap: 10px;
   }
 
   &__name,
@@ -22,6 +28,12 @@
       width: 50%;
     }
 
+    @media (max-width: 450px) {
+      width: calc(33% - 10px);
+    }
+  }
+
+  &__name {
     @media (max-width: 450px) {
       width: 100%;
     }

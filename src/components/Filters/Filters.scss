@@ -1,8 +1,9 @@
+@import "../../base";
+
 .filters {
   display: flex;
   min-height: 60px;
-  display: flex;
-  border-bottom: 1px #d3d3d3 solid;
+  border-bottom: 1px $grey solid;
   padding-left: 20px;
   flex-wrap: wrap;
 
